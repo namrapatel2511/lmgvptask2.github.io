@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>REGISTRATION FORM</title>
+  <link rel="stylesheet" type="text/css" href="lmgv2.css">
+</head>
+<body>
+  <h2>REGISTRATION DETAILS</h2>
+
+  <div class="container">
+    <form id="userForm">
+      <div class="form-group">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <label for="numberInput">Number:</label>
+        <input type="number" id="numberInput" placeholder="Number" required>
+      </div>
+      <div class="form-group">
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" placeholder="Email" required>
+      </div>
+      <div class="form-group">
+        <label for="genderInput">Gender:</label>
+        <select id="genderInput" required>
+          <option value="">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="imageInput">Image:</label>
+        <input type="file" id="imageInput" required>
+      </div>
+      <div class="form-group">
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </div>
+
+  <table id="userTable">
+    <tr>
+      <th>Details</th>
+      <th>Image</th>
+    </tr>
+  </table>
+  <a href="#" class="bookmark">
+    <img src="pic4.jpg" alt="Symbol" class="symbol-image">
+    Created by N@mra P@tel
+  </a>
+  <script src="lmgv2.js"></script>
+</body>
+</html>
